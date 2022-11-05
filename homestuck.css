@@ -1,11 +1,12 @@
 body {
 background-color: #000000;
 }
+
 .Bild {
 position: relative;
 width: 100vw;
-
 }
+
 .Box {
 background: #222222;
 border-style: hidden;
@@ -55,3 +56,14 @@ color: #e8e6e3;
 font-family: "arial";
 font-size: 0.85rem;
 padding-left: 1.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+.Box {
+background: #222222;
+border-style: hidden;
+margin: auto;
+position: relative;
+width: 40.625rem;
+}
+}
