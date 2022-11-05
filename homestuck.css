@@ -1,9 +1,11 @@
 body {
 background-color: #000000;
 }
+
 .Bild {
 position: relative;
 }
+
 .Box {
 background: #222222;
 border-style: hidden;
@@ -11,6 +13,7 @@ margin: auto;
 position: relative;
 width: 40.625em;
 }
+
 .Text {
 color: #e8e6e3;
 font-family: "Courier";
@@ -20,6 +23,7 @@ text-align: center;
 padding-left: 1.5em;
 padding-right: 1.5em;
 }
+
 .Überschrift {
 color: #e8e6e3;
 font-family: "Courier";
@@ -27,21 +31,25 @@ font-size: 2em;
 font-weight: bold;
 text-align: center;
 }
+
 .Untertext {
 text-decoration: none;
 font-size: 1.125;
 font-family: "Verdana";
 padding-left: 1.5em;
 }
+
 .Weiter {
 color: #e8e6e3;
 font-family: "Arial";
 font-size: 1.5em;
 padding-left: 1.25em;
 }
+
 a.Linktext:link {
 font-size: 0.85em;
 }
+
 .Weiterunten {
 color: #e8e6e3;
 font-family: "Arial";
