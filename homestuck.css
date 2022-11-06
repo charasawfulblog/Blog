@@ -65,9 +65,10 @@ background-color: #000000;
 }
 
 .Bild {
-width: 100vw;
-}
+width: 100%;
+height: auto;
 
+}
 .Box {
 background: #222222;
 border-style: hidden;
