@@ -67,9 +67,13 @@ background-color: #000000;
 .Bild {
 width: 100%;
 height: auto;
-
 }
-
+.Box {
+width: 100%;
+heigt: auto;
+background: #222222;
+border-style: hidden;
+}
 .Text {
 color: #e8e6e3;
 font-family: "courier";
