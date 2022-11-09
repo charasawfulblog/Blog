@@ -1,0 +1,30 @@
+body {
+background-color: #000000;
+}
+
+.Fenster {
+width: 50%;
+height: auto;
+margin: auto;
+background: #222222;
+border-style: hidden;
+}
+
+.Überschrift {
+font-family: "courier-new", monospace;
+color:  #e8e6e3;
+font-size: 3em;
+text-align: center;
+}
+
+.Bild {
+float: left;
+}
+
+.Text {
+font-family: "courier", monospace;
+color:  #e8e6e3;
+font-size: 1em;
+font-weight: bold;
+text-align: center;
+}
