@@ -7,7 +7,7 @@ width: 40.625em;
 height: auto;
 margin: auto;
 background: #222222;
-border-style: hidden;
+border-style: none;
 }
 
 .Überschrift {
@@ -63,15 +63,15 @@ background-color: #FF0000;
 }
 
 .Fenster {
-width: 100vw;
+width: 95vw;
 height: auto;
 background: #222222;
-border-style: hidden;
+border-style: none;
 }
 
 .Bild {
 text-align: center;
-width: 100vw;
+width: 95vw;
 height: auto;
 }
 }
