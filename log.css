@@ -41,15 +41,9 @@ text-align: center;
 }
 
 .Text {
-text-align: center;
 font-family: "courier-new", monospace;
 color: #e8e6e3;
 font-size: 1em;
 font-weight: bold;
-}
-
-.V {
 text-align: center;
-color: #e8e6e3;
-border-left: 0.0625em solid #e8e6e3;
 }
