@@ -32,10 +32,6 @@ text-align: center;
 
 @media only screen and (max-width: 670px) {
 
-body {
-background-color: #FF0000;
-}
-
 .Fenster {
 width: 95vw;
 height: auto;
