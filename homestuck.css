@@ -2,18 +2,24 @@ body {
 background-color: #000000;
 }
 
+hr {
+width: 95vw;
+color: #e8e6e3;
+font-weight: bold;
+}
+
 .Fenster {
 width: 40.625em;
 height: auto;
 margin: auto;
-background: #222222;
+background: #111111;
 border-style: none;
 }
 
 .Überschrift {
 font-family: "courier", monospace;
 color: #e8e6e3;
-font-size: 2em;
+font-size: 2.25em;
 font-weight: bold;
 text-align: center;
 }
@@ -56,22 +62,19 @@ font-family: "verdana", sans-serif;
 font-size: 0.85em;
 }
 
-@media only screen and (max-width: 670px) {
-
-body {
-background-color: #FF0000;
-}
+@media only screen and (max-width: 680px) {
 
 .Fenster {
-width: 95vw;
+width: 100%;
+margin-left: 0em;
 height: auto;
-background: #222222;
+background: #111111;
 border-style: none;
 }
 
 .Bild {
 text-align: center;
-width: 95vw;
+width: 100%;
 height: auto;
 }
 }
