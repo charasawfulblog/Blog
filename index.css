@@ -3,10 +3,10 @@ background-color: #000000;
 }
 
 .Fenster {
-width: 50%;
+width: 66.7%;
 height: auto;
 margin: auto;
-background: #222222;
+background: #111111;
 border-style: hidden;
 padding: 1em;
 }
@@ -20,6 +20,8 @@ text-align: center;
 
 .Bild {
 float: left;
+width: 20%;
+height: auto;
 }
 
 .Text {
@@ -30,18 +32,22 @@ font-weight: bold;
 text-align: center;
 }
 
+.Trenn::after {
+content: " | ";
+color:  #e8e6e3;
+font-size: 1em;
+}
+
 @media only screen and (max-width: 670px) {
 
 .Fenster {
 width: 95vw;
 height: auto;
-background: #222222;
-border-style: none;
+margin: auto;
 }
 
 .Bild {
-text-align: center;
-width: 95vw;
-height: auto;
+width: 25%;
+display: inline;
 }
 }

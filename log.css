@@ -2,6 +2,14 @@ body {
 background-color: #000000;
 }
 
+p {
+font-family: "courier-new", monospace;
+color: #e8e6e3;
+font-size: 1em;
+font-weight: bold;
+text-align: center;
+}
+
 ul {
 font-family: "courier-new", monospace;
 color: #e8e6e3;
@@ -17,6 +25,7 @@ font-weight: bold;
 
 a:link {
 text-decoration: none;
+color: #0066cc;
 }
 
 a:hover {
@@ -42,7 +51,6 @@ text-align: center;
 
 .Text {
 font-family: "courier-new", monospace;
-color: #e8e6e3;
 font-size: 1em;
 font-weight: bold;
 text-align: center;

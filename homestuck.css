@@ -1,13 +1,6 @@
 body {
 background-color: #000000;
 }
-
-hr {
-width: 95vw;
-color: #e8e6e3;
-font-weight: bold;
-}
-
 .Fenster {
 width: 40.625em;
 height: auto;
@@ -15,7 +8,6 @@ margin: auto;
 background: #111111;
 border-style: none;
 }
-
 .Überschrift {
 font-family: "courier", monospace;
 color: #e8e6e3;
@@ -23,17 +15,14 @@ font-size: 2.25em;
 font-weight: bold;
 text-align: center;
 }
-
 .Bild {
 text-align: center;
 width: 40.625em;
 height: auto;
 }
-
 .Video {
 text-align: center;
 }
-
 .Text {
 font-family: "courier", monospace;
 color: #e8e6e3;
@@ -43,46 +32,44 @@ text-align: center;
 padding-left: 1.5em;
 padding-right: 1.5em;
 }
-
 .Weiter {
 font-family: "arial", sans-serif;
 color: #e8e6e3;
 font-size: 1.5em;
 padding-left: 1.25em;
 }
-
 .Befehl { 
-font-family: "arial", sans-serif;
 font-size: 1.5em;
 }
-
-.Weiterunten {
+a {
+font-family: "arial", sans-serif;
+font-size: 0.8em;
+color: #0066cc;
+}
+a:hover {
+color: #0000ee;
+}
+.Trenn::after {
+content: " | ";
 color: #e8e6e3;
-font-family: "verdana", sans-serif;
-font-size: 0.85em;
+font-size: 1em;
 }
-
-@media only screen and (max-width: 670px) {
-
-hr {
-display: none
+.Links {
+padding-left: 1em;
 }
-
+@media only screen and (max-width: 680px) {
 .Fenster {
-width: 100%;
-margin: auto;
+width: 90vw;
 height: auto;
-background: #000000;
+margin: auto;
+background: #111111;
 }
-
 .Bild {
+position: relative;
 text-align: center;
 width: 100%;
 height: auto;
-}
-
-.Weiterunten {
-display: none;
+text-align: center;
 }
 .Text {
 padding-left: 0.3125em;
